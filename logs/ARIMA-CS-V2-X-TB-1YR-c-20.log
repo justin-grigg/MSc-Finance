@@ -1,0 +1,363 @@
+********** ARIMA-CS-V2-X-TB-1YR-c **********
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:             CS-Aaa-1YR   No. Observations:                  127
+Model:                 ARIMA(3, 1, 0)   Log Likelihood                  23.528
+Date:                Thu, 17 Sep 2020   AIC                            -35.055
+Time:                        14:23:50   BIC                            -18.038
+Sample:                    01-31-2009   HQIC                           -28.142
+                         - 07-31-2019                                         
+Covariance Type:                  opg                                         
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const           6.401e-08   3.31e-09     19.338      0.000    5.75e-08    7.05e-08
+TB-1YR-TY-diff     0.4842      0.184      2.630      0.009       0.123       0.845
+ar.L1             -0.2391      0.095     -2.513      0.012      -0.426      -0.053
+ar.L2              0.3321      0.095      3.502      0.000       0.146       0.518
+ar.L3              0.2533      0.155      1.637      0.102      -0.050       0.557
+sigma2             0.0402      0.005      8.605      0.000       0.031       0.049
+===================================================================================
+Ljung-Box (L1) (Q):                   0.11   Jarque-Bera (JB):              1582.08
+Prob(Q):                              0.74   Prob(JB):                         0.00
+Heteroskedasticity (H):               0.23   Skew:                            -2.09
+Prob(H) (two-sided):                  0.00   Kurtosis:                        19.85
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+[2] Covariance matrix is singular or near-singular, with condition number 2.39e+23. Standard errors may be unstable.
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:              CS-Aa-1YR   No. Observations:                  127
+Model:                 ARIMA(1, 1, 1)   Log Likelihood                  60.591
+Date:                Thu, 17 Sep 2020   AIC                           -109.182
+Time:                        14:23:51   BIC                            -92.164
+Sample:                    01-31-2009   HQIC                          -102.268
+                         - 07-31-2019                                         
+Covariance Type:                  opg                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const             -2.923e-08   1.14e-10   -256.500      0.000   -2.95e-08    -2.9e-08
+Market-RMRF-diff      0.0043      0.002      2.147      0.032       0.000       0.008
+Market-SP500-diff    -0.0003      0.000     -1.441      0.150      -0.001       0.000
+ar.L1                 0.9389      0.078     11.996      0.000       0.786       1.092
+ma.L1                -0.8663      0.110     -7.906      0.000      -1.081      -0.652
+sigma2                0.0223      0.002      8.967      0.000       0.017       0.027
+===================================================================================
+Ljung-Box (L1) (Q):                   0.32   Jarque-Bera (JB):                 2.95
+Prob(Q):                              0.57   Prob(JB):                         0.23
+Heteroskedasticity (H):               0.18   Skew:                            -0.23
+Prob(H) (two-sided):                  0.00   Kurtosis:                         3.59
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+[2] Covariance matrix is singular or near-singular, with condition number 3.74e+24. Standard errors may be unstable.
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:               CS-A-1YR   No. Observations:                  127
+Model:                 ARIMA(2, 1, 0)   Log Likelihood                  54.250
+Date:                Thu, 17 Sep 2020   AIC                            -96.501
+Time:                        14:23:52   BIC                            -79.483
+Sample:                    01-31-2009   HQIC                           -89.587
+                         - 07-31-2019                                         
+Covariance Type:                  opg                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const             -4.146e-12   4.18e-11     -0.099      0.921   -8.61e-11    7.78e-11
+Market-RMRF-diff      0.0058      0.002      2.707      0.007       0.002       0.010
+Market-SP500-diff    -0.0003      0.000     -1.354      0.176      -0.001       0.000
+ar.L1                 0.2414      0.052      4.670      0.000       0.140       0.343
+ar.L2                 0.0956      0.072      1.328      0.184      -0.046       0.237
+sigma2                0.0244      0.002     10.769      0.000       0.020       0.029
+===================================================================================
+Ljung-Box (L1) (Q):                   0.02   Jarque-Bera (JB):                32.79
+Prob(Q):                              0.89   Prob(JB):                         0.00
+Heteroskedasticity (H):               0.20   Skew:                            -0.56
+Prob(H) (two-sided):                  0.00   Kurtosis:                         5.23
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+[2] Covariance matrix is singular or near-singular, with condition number 3.16e+24. Standard errors may be unstable.
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:             CS-Baa-1YR   No. Observations:                  127
+Model:                 ARIMA(3, 1, 2)   Log Likelihood                  36.588
+Date:                Thu, 17 Sep 2020   AIC                            -55.176
+Time:                        14:23:53   BIC                            -29.649
+Sample:                    01-31-2009   HQIC                           -44.805
+                         - 07-31-2019                                         
+Covariance Type:                  opg                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const              5.813e-10    3.2e-08      0.018      0.986   -6.22e-08    6.34e-08
+Market-RMRF-diff      0.0029      0.003      0.946      0.344      -0.003       0.009
+Market-SP500-diff -1.235e-05      0.000     -0.042      0.967      -0.001       0.001
+ar.L1                -0.0805      0.612     -0.132      0.895      -1.280       1.119
+ar.L2                -0.0212      0.503     -0.042      0.966      -1.008       0.965
+ar.L3                 0.3044      0.151      2.014      0.044       0.008       0.601
+ma.L1                 0.3453      0.617      0.560      0.576      -0.864       1.554
+ma.L2                 0.3182      0.494      0.644      0.519      -0.650       1.286
+sigma2                0.0328      0.003     12.673      0.000       0.028       0.038
+===================================================================================
+Ljung-Box (L1) (Q):                   0.00   Jarque-Bera (JB):               130.41
+Prob(Q):                              0.99   Prob(JB):                         0.00
+Heteroskedasticity (H):               0.29   Skew:                            -0.94
+Prob(H) (two-sided):                  0.00   Kurtosis:                         7.61
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+[2] Covariance matrix is singular or near-singular, with condition number 4.33e+23. Standard errors may be unstable.
+           cs      order                  aic                  bic                 hqic            jb_pvalue               dw_res                  llf                  mse                 rmse                 mean                 mape
+0  CS-Aaa-1YR  (3, 1, 0)           -35.055399           -18.037708           -28.141645             0.560696             1.559436            23.527700             0.010721             0.103543            -0.018772             0.081603
+1   CS-Aa-1YR  (1, 1, 1)          -109.182173           -92.164481          -102.268418             0.405963             1.826046            60.591086             0.004928             0.070197            -0.012167             0.068949
+2    CS-A-1YR  (2, 1, 0)           -96.500880           -79.483188           -89.587125             0.746238             2.012202            54.250440             0.006211             0.078813            -0.020271             0.051692
+3  CS-Baa-1YR  (3, 1, 2)           -55.175641           -29.649104           -44.805009             0.610967             1.962264            36.587821             0.009370             0.096797            -0.011343             0.041201
+********** ARIMA-CS-V2-X-TB-1YR-c **********
+********** ARIMA-CS-V2-X-TB-1YR-c **********
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:             CS-Aaa-1YR   No. Observations:                  127
+Model:                 ARIMA(3, 1, 0)   Log Likelihood                  23.528
+Date:                Thu, 17 Sep 2020   AIC                            -35.055
+Time:                        14:36:14   BIC                            -18.038
+Sample:                    01-31-2009   HQIC                           -28.142
+                         - 07-31-2019                                         
+Covariance Type:                  opg                                         
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const           6.401e-08   3.31e-09     19.338      0.000    5.75e-08    7.05e-08
+TB-1YR-TY-diff     0.4842      0.184      2.630      0.009       0.123       0.845
+ar.L1             -0.2391      0.095     -2.513      0.012      -0.426      -0.053
+ar.L2              0.3321      0.095      3.502      0.000       0.146       0.518
+ar.L3              0.2533      0.155      1.637      0.102      -0.050       0.557
+sigma2             0.0402      0.005      8.605      0.000       0.031       0.049
+===================================================================================
+Ljung-Box (L1) (Q):                   0.11   Jarque-Bera (JB):              1582.08
+Prob(Q):                              0.74   Prob(JB):                         0.00
+Heteroskedasticity (H):               0.23   Skew:                            -2.09
+Prob(H) (two-sided):                  0.00   Kurtosis:                        19.85
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+[2] Covariance matrix is singular or near-singular, with condition number 2.39e+23. Standard errors may be unstable.
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:             CS-Aaa-1YR   No. Observations:                  127
+Model:                 ARIMA(3, 1, 0)   Log Likelihood                  23.528
+Date:                Thu, 17 Sep 2020   AIC                            -35.055
+Time:                        14:36:14   BIC                            -18.038
+Sample:                    01-31-2009   HQIC                           -28.142
+                         - 07-31-2019                                         
+Covariance Type:                  opg                                         
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const           6.401e-08   3.31e-09     19.338      0.000    5.75e-08    7.05e-08
+TB-1YR-TY-diff     0.4842      0.184      2.630      0.009       0.123       0.845
+ar.L1             -0.2391      0.095     -2.513      0.012      -0.426      -0.053
+ar.L2              0.3321      0.095      3.502      0.000       0.146       0.518
+ar.L3              0.2533      0.155      1.637      0.102      -0.050       0.557
+sigma2             0.0402      0.005      8.605      0.000       0.031       0.049
+===================================================================================
+Ljung-Box (L1) (Q):                   0.11   Jarque-Bera (JB):              1582.08
+Prob(Q):                              0.74   Prob(JB):                         0.00
+Heteroskedasticity (H):               0.23   Skew:                            -2.09
+Prob(H) (two-sided):                  0.00   Kurtosis:                        19.85
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+[2] Covariance matrix is singular or near-singular, with condition number 2.39e+23. Standard errors may be unstable.
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:              CS-Aa-1YR   No. Observations:                  127
+Model:                 ARIMA(1, 1, 1)   Log Likelihood                  60.591
+Date:                Thu, 17 Sep 2020   AIC                           -109.182
+Time:                        14:36:15   BIC                            -92.164
+Sample:                    01-31-2009   HQIC                          -102.268
+                         - 07-31-2019                                         
+Covariance Type:                  opg                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const             -2.923e-08   1.14e-10   -256.500      0.000   -2.95e-08    -2.9e-08
+Market-RMRF-diff      0.0043      0.002      2.147      0.032       0.000       0.008
+Market-SP500-diff    -0.0003      0.000     -1.441      0.150      -0.001       0.000
+ar.L1                 0.9389      0.078     11.996      0.000       0.786       1.092
+ma.L1                -0.8663      0.110     -7.906      0.000      -1.081      -0.652
+sigma2                0.0223      0.002      8.967      0.000       0.017       0.027
+===================================================================================
+Ljung-Box (L1) (Q):                   0.32   Jarque-Bera (JB):                 2.95
+Prob(Q):                              0.57   Prob(JB):                         0.23
+Heteroskedasticity (H):               0.18   Skew:                            -0.23
+Prob(H) (two-sided):                  0.00   Kurtosis:                         3.59
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+[2] Covariance matrix is singular or near-singular, with condition number 3.74e+24. Standard errors may be unstable.
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:              CS-Aa-1YR   No. Observations:                  127
+Model:                 ARIMA(1, 1, 1)   Log Likelihood                  60.591
+Date:                Thu, 17 Sep 2020   AIC                           -109.182
+Time:                        14:36:15   BIC                            -92.164
+Sample:                    01-31-2009   HQIC                          -102.268
+                         - 07-31-2019                                         
+Covariance Type:                  opg                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const             -2.923e-08   1.14e-10   -256.500      0.000   -2.95e-08    -2.9e-08
+Market-RMRF-diff      0.0043      0.002      2.147      0.032       0.000       0.008
+Market-SP500-diff    -0.0003      0.000     -1.441      0.150      -0.001       0.000
+ar.L1                 0.9389      0.078     11.996      0.000       0.786       1.092
+ma.L1                -0.8663      0.110     -7.906      0.000      -1.081      -0.652
+sigma2                0.0223      0.002      8.967      0.000       0.017       0.027
+===================================================================================
+Ljung-Box (L1) (Q):                   0.32   Jarque-Bera (JB):                 2.95
+Prob(Q):                              0.57   Prob(JB):                         0.23
+Heteroskedasticity (H):               0.18   Skew:                            -0.23
+Prob(H) (two-sided):                  0.00   Kurtosis:                         3.59
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+[2] Covariance matrix is singular or near-singular, with condition number 3.74e+24. Standard errors may be unstable.
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:               CS-A-1YR   No. Observations:                  127
+Model:                 ARIMA(2, 1, 0)   Log Likelihood                  54.250
+Date:                Thu, 17 Sep 2020   AIC                            -96.501
+Time:                        14:36:16   BIC                            -79.483
+Sample:                    01-31-2009   HQIC                           -89.587
+                         - 07-31-2019                                         
+Covariance Type:                  opg                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const             -4.146e-12   4.18e-11     -0.099      0.921   -8.61e-11    7.78e-11
+Market-RMRF-diff      0.0058      0.002      2.707      0.007       0.002       0.010
+Market-SP500-diff    -0.0003      0.000     -1.354      0.176      -0.001       0.000
+ar.L1                 0.2414      0.052      4.670      0.000       0.140       0.343
+ar.L2                 0.0956      0.072      1.328      0.184      -0.046       0.237
+sigma2                0.0244      0.002     10.769      0.000       0.020       0.029
+===================================================================================
+Ljung-Box (L1) (Q):                   0.02   Jarque-Bera (JB):                32.79
+Prob(Q):                              0.89   Prob(JB):                         0.00
+Heteroskedasticity (H):               0.20   Skew:                            -0.56
+Prob(H) (two-sided):                  0.00   Kurtosis:                         5.23
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+[2] Covariance matrix is singular or near-singular, with condition number 3.16e+24. Standard errors may be unstable.
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:               CS-A-1YR   No. Observations:                  127
+Model:                 ARIMA(2, 1, 0)   Log Likelihood                  54.250
+Date:                Thu, 17 Sep 2020   AIC                            -96.501
+Time:                        14:36:16   BIC                            -79.483
+Sample:                    01-31-2009   HQIC                           -89.587
+                         - 07-31-2019                                         
+Covariance Type:                  opg                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const             -4.146e-12   4.18e-11     -0.099      0.921   -8.61e-11    7.78e-11
+Market-RMRF-diff      0.0058      0.002      2.707      0.007       0.002       0.010
+Market-SP500-diff    -0.0003      0.000     -1.354      0.176      -0.001       0.000
+ar.L1                 0.2414      0.052      4.670      0.000       0.140       0.343
+ar.L2                 0.0956      0.072      1.328      0.184      -0.046       0.237
+sigma2                0.0244      0.002     10.769      0.000       0.020       0.029
+===================================================================================
+Ljung-Box (L1) (Q):                   0.02   Jarque-Bera (JB):                32.79
+Prob(Q):                              0.89   Prob(JB):                         0.00
+Heteroskedasticity (H):               0.20   Skew:                            -0.56
+Prob(H) (two-sided):                  0.00   Kurtosis:                         5.23
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+[2] Covariance matrix is singular or near-singular, with condition number 3.16e+24. Standard errors may be unstable.
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:             CS-Baa-1YR   No. Observations:                  127
+Model:                 ARIMA(3, 1, 2)   Log Likelihood                  36.588
+Date:                Thu, 17 Sep 2020   AIC                            -55.176
+Time:                        14:36:17   BIC                            -29.649
+Sample:                    01-31-2009   HQIC                           -44.805
+                         - 07-31-2019                                         
+Covariance Type:                  opg                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const              5.813e-10    3.2e-08      0.018      0.986   -6.22e-08    6.34e-08
+Market-RMRF-diff      0.0029      0.003      0.946      0.344      -0.003       0.009
+Market-SP500-diff -1.235e-05      0.000     -0.042      0.967      -0.001       0.001
+ar.L1                -0.0805      0.612     -0.132      0.895      -1.280       1.119
+ar.L2                -0.0212      0.503     -0.042      0.966      -1.008       0.965
+ar.L3                 0.3044      0.151      2.014      0.044       0.008       0.601
+ma.L1                 0.3453      0.617      0.560      0.576      -0.864       1.554
+ma.L2                 0.3182      0.494      0.644      0.519      -0.650       1.286
+sigma2                0.0328      0.003     12.673      0.000       0.028       0.038
+===================================================================================
+Ljung-Box (L1) (Q):                   0.00   Jarque-Bera (JB):               130.41
+Prob(Q):                              0.99   Prob(JB):                         0.00
+Heteroskedasticity (H):               0.29   Skew:                            -0.94
+Prob(H) (two-sided):                  0.00   Kurtosis:                         7.61
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+[2] Covariance matrix is singular or near-singular, with condition number 4.33e+23. Standard errors may be unstable.
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:             CS-Baa-1YR   No. Observations:                  127
+Model:                 ARIMA(3, 1, 2)   Log Likelihood                  36.588
+Date:                Thu, 17 Sep 2020   AIC                            -55.176
+Time:                        14:36:17   BIC                            -29.649
+Sample:                    01-31-2009   HQIC                           -44.805
+                         - 07-31-2019                                         
+Covariance Type:                  opg                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const              5.813e-10    3.2e-08      0.018      0.986   -6.22e-08    6.34e-08
+Market-RMRF-diff      0.0029      0.003      0.946      0.344      -0.003       0.009
+Market-SP500-diff -1.235e-05      0.000     -0.042      0.967      -0.001       0.001
+ar.L1                -0.0805      0.612     -0.132      0.895      -1.280       1.119
+ar.L2                -0.0212      0.503     -0.042      0.966      -1.008       0.965
+ar.L3                 0.3044      0.151      2.014      0.044       0.008       0.601
+ma.L1                 0.3453      0.617      0.560      0.576      -0.864       1.554
+ma.L2                 0.3182      0.494      0.644      0.519      -0.650       1.286
+sigma2                0.0328      0.003     12.673      0.000       0.028       0.038
+===================================================================================
+Ljung-Box (L1) (Q):                   0.00   Jarque-Bera (JB):               130.41
+Prob(Q):                              0.99   Prob(JB):                         0.00
+Heteroskedasticity (H):               0.29   Skew:                            -0.94
+Prob(H) (two-sided):                  0.00   Kurtosis:                         7.61
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+[2] Covariance matrix is singular or near-singular, with condition number 4.33e+23. Standard errors may be unstable.
+           cs      order                  aic                  bic                 hqic            jb_pvalue               dw_res                  llf                  mse                 rmse                 mean                 mape
+0  CS-Aaa-1YR  (3, 1, 0)           -35.055399           -18.037708           -28.141645             0.560696             1.559436            23.527700             0.010721             0.103543            -0.018772             0.081603
+1   CS-Aa-1YR  (1, 1, 1)          -109.182173           -92.164481          -102.268418             0.405963             1.826046            60.591086             0.004928             0.070197            -0.012167             0.068949
+2    CS-A-1YR  (2, 1, 0)           -96.500880           -79.483188           -89.587125             0.746238             2.012202            54.250440             0.006211             0.078813            -0.020271             0.051692
+3  CS-Baa-1YR  (3, 1, 2)           -55.175641           -29.649104           -44.805009             0.610967             1.962264            36.587821             0.009370             0.096797            -0.011343             0.041201
+           cs      order                  aic                  bic                 hqic            jb_pvalue               dw_res                  llf                  mse                 rmse                 mean                 mape
+0  CS-Aaa-1YR  (3, 1, 0)           -35.055399           -18.037708           -28.141645             0.560696             1.559436            23.527700             0.010721             0.103543            -0.018772             0.081603
+1   CS-Aa-1YR  (1, 1, 1)          -109.182173           -92.164481          -102.268418             0.405963             1.826046            60.591086             0.004928             0.070197            -0.012167             0.068949
+2    CS-A-1YR  (2, 1, 0)           -96.500880           -79.483188           -89.587125             0.746238             2.012202            54.250440             0.006211             0.078813            -0.020271             0.051692
+3  CS-Baa-1YR  (3, 1, 2)           -55.175641           -29.649104           -44.805009             0.610967             1.962264            36.587821             0.009370             0.096797            -0.011343             0.041201

@@ -1,0 +1,31 @@
+Name   ::  Test Stat > C(95%)    =>   Signif.
+----------------------------------------
+column CS-Aa-3MO
+Name   ::  Test Stat > C(95%)    =>   Signif.
+----------------------------------------
+Name   ::  Test Stat > C(95%)    =>   Signif.
+----------------------------------------
+column CS-Aa-3MO
+Name   ::  Test Stat > C(95%)    =>   Signif.
+----------------------------------------
+column CS-Aa-3MO
+Name   ::  Test Stat > C(95%)    =>   Signif.
+----------------------------------------
+column CS-Aa-3MO
+Unexpected error: <class 'numpy.linalg.LinAlgError'>
+Matrix is not positive definite
+Name   ::  Test Stat > C(95%)    =>   Signif.
+----------------------------------------
+column CS-Aaa-3MO
+Unexpected error: <class 'numpy.linalg.LinAlgError'>
+Matrix is not positive definite
+Name   ::  Test Stat > C(95%)    =>   Signif.
+----------------------------------------
+column CS-Aaa-3MO
+Unexpected error: <class 'numpy.linalg.LinAlgError'>
+Matrix is not positive definite
+Name   ::  Test Stat > C(95%)    =>   Signif.
+----------------------------------------
+column CS-Aa-3MO
+Unexpected error: <class 'numpy.linalg.LinAlgError'>
+Matrix is not positive definite

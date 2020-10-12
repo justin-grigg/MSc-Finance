@@ -1,0 +1,132 @@
+**** AR(1) ****
+#### start AR(1) ####
+#### AR(1) complete ####
+                              const.coef           ar(1).coef
+column                                                       
+Corp-Aaa_Corp                   5.477111             0.992768
+Corp-Aa_Corp                    6.071098             0.996712
+Corp-A_Corp                     5.847362             0.994653
+Corp-Baa_Corp                   6.405307             0.993076
+TB-3MO-TY                       4.346833             0.997505
+TB-1YR-TY                       4.379603             0.997208
+TB-5YR-TY                       4.550925             0.994679
+Econ-UNRATE                     5.150599             0.994920
+Econ-DSPIC96               10,506.347983             0.999788
+Econ-CPIAUCSL                   2.563216             0.955881
+Econ-CPILFESL                   2.891895             0.993341
+Econ-INDPRO                    87.235119             0.999638
+Econ-PCE                    8,461.077799             1.000000
+Market-SP500                1,557.238334             0.998895
+Market-SP500-change             0.527616             0.039991
+Market-RMRF                    -2.263852             0.241685
+CS-Aaa-3MO                      2.138029             0.954522
+CS-Aa-3MO                       2.189867             0.963143
+CS-A-3MO                        2.423377             0.971062
+CS-Baa-3MO                      3.043790             0.974732
+CS-Aaa-1YR                      1.871524             0.964963
+CS-Aa-1YR                       1.938760             0.975124
+CS-A-1YR                        2.130652             0.980129
+CS-Baa-1YR                      2.784304             0.979207
+CS-Aaa-5YR                      1.073499             0.920572
+CS-Aa-5YR                       1.133712             0.955450
+CS-A-5YR                        1.419115             0.965831
+CS-Baa-5YR                      2.076266             0.964546
+**** AR(1) diff period 1 ****
+#### start AR(1) ####
+#### AR(1) complete ####
+                              const.coef           ar(1).coef
+column                                                       
+Corp-Aaa_Corp                  -0.016969             0.003213
+Corp-Aa_Corp                   -0.017700             0.032171
+Corp-A_Corp                    -0.017326             0.198723
+Corp-Baa_Corp                  -0.017353             0.185226
+TB-3MO-TY                      -0.015942             0.239592
+TB-1YR-TY                      -0.015588             0.344096
+TB-5YR-TY                      -0.016684             0.138894
+Econ-UNRATE                    -0.004826             0.126219
+Econ-DSPIC96                   23.175263            -0.177316
+Econ-CPIAUCSL                  -0.009741             0.374001
+Econ-CPILFESL                  -0.005692             0.103037
+Econ-INDPRO                     0.131813             0.217469
+Econ-PCE                       30.846148             0.047481
+Market-SP500                    7.328103            -0.065141
+Market-SP500-change             0.011038            -0.472639
+Market-RMRF                     0.027353            -0.468244
+CS-Aaa-3MO                     -0.000888            -0.034603
+CS-Aa-3MO                      -0.001772            -0.003165
+CS-A-3MO                       -0.001401             0.150930
+CS-Baa-3MO                     -0.001343             0.211499
+CS-Aaa-1YR                     -0.000754            -0.046439
+CS-Aa-1YR                      -0.001471             0.042519
+CS-A-1YR                       -0.001397             0.241176
+CS-Baa-1YR                     -0.001421             0.243881
+CS-Aaa-5YR                      0.000002            -0.051528
+CS-Aa-5YR                      -0.000708             0.056214
+CS-A-5YR                       -0.000851             0.286770
+CS-Baa-5YR                     -0.000917             0.303369
+**** AR(1) ****
+#### start AR(1) ####
+#### AR(1) complete ####
+                              const.coef           ar(1).coef
+column                                                       
+Corp-Aaa_Corp                   5.477111             0.992768
+Corp-Aa_Corp                    6.071098             0.996712
+Corp-A_Corp                     5.847362             0.994653
+Corp-Baa_Corp                   6.405307             0.993076
+TB-3MO-TY                       4.346833             0.997505
+TB-1YR-TY                       4.379603             0.997208
+TB-5YR-TY                       4.550925             0.994679
+Econ-UNRATE                     5.150599             0.994920
+Econ-DSPIC96               10,506.347983             0.999788
+Econ-CPIAUCSL                   2.563216             0.955881
+Econ-CPILFESL                   2.891895             0.993341
+Econ-INDPRO                    87.235119             0.999638
+Econ-PCE                    8,461.077799             1.000000
+Market-SP500                1,557.238334             0.998895
+Market-SP500-change             0.527616             0.039991
+Market-RMRF                    -2.263852             0.241685
+CS-Aaa-3MO                      2.138029             0.954522
+CS-Aa-3MO                       2.189867             0.963143
+CS-A-3MO                        2.423377             0.971062
+CS-Baa-3MO                      3.043790             0.974732
+CS-Aaa-1YR                      1.871524             0.964963
+CS-Aa-1YR                       1.938760             0.975124
+CS-A-1YR                        2.130652             0.980129
+CS-Baa-1YR                      2.784304             0.979207
+CS-Aaa-5YR                      1.073499             0.920572
+CS-Aa-5YR                       1.133712             0.955450
+CS-A-5YR                        1.419115             0.965831
+CS-Baa-5YR                      2.076266             0.964546
+**** AR(1) diff period 1 ****
+#### start AR(1) ####
+#### AR(1) complete ####
+                              const.coef           ar(1).coef
+column                                                       
+Corp-Aaa_Corp                  -0.016969             0.003213
+Corp-Aa_Corp                   -0.017700             0.032171
+Corp-A_Corp                    -0.017326             0.198723
+Corp-Baa_Corp                  -0.017353             0.185226
+TB-3MO-TY                      -0.015942             0.239592
+TB-1YR-TY                      -0.015588             0.344096
+TB-5YR-TY                      -0.016684             0.138894
+Econ-UNRATE                    -0.004826             0.126219
+Econ-DSPIC96                   23.175263            -0.177316
+Econ-CPIAUCSL                  -0.009741             0.374001
+Econ-CPILFESL                  -0.005692             0.103037
+Econ-INDPRO                     0.131813             0.217469
+Econ-PCE                       30.846148             0.047481
+Market-SP500                    7.328103            -0.065141
+Market-SP500-change             0.011038            -0.472639
+Market-RMRF                     0.027353            -0.468244
+CS-Aaa-3MO                     -0.000888            -0.034603
+CS-Aa-3MO                      -0.001772            -0.003165
+CS-A-3MO                       -0.001401             0.150930
+CS-Baa-3MO                     -0.001343             0.211499
+CS-Aaa-1YR                     -0.000754            -0.046439
+CS-Aa-1YR                      -0.001471             0.042519
+CS-A-1YR                       -0.001397             0.241176
+CS-Baa-1YR                     -0.001421             0.243881
+CS-Aaa-5YR                      0.000002            -0.051528
+CS-Aa-5YR                      -0.000708             0.056214
+CS-A-5YR                       -0.000851             0.286770
+CS-Baa-5YR                     -0.000917             0.303369

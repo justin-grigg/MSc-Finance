@@ -1,0 +1,6 @@
+Name   ::  Test Stat > C(95%)    =>   Signif.
+----------------------------------------
+Unexpected error: <class 'numpy.linalg.LinAlgError'> Matrix is not positive definite
+Name   ::  Test Stat > C(95%)    =>   Signif.
+----------------------------------------
+Unexpected error: <class 'numpy.linalg.LinAlgError'> Matrix is not positive definite
